@@ -5,19 +5,19 @@
 		"focusBorder": "#C7864A",
 		"widget.border": "#C7864A",
 		"editor.background": "#1C1A18",
-		"editor.foreground": "#ACA79E",
+		"editor.foreground": "#B5AFA6",
 		"editor.lineHighlightBackground": "#292521",
-		"editorLineNumber.foreground": "#ACA79E",
+		"editorLineNumber.foreground": "#B5AFA6",
 		"editorLineNumber.activeForeground": "#B05F4A",
 		"editor.selectionBackground": "#3A342D",
 		"editor.inactiveSelectionBackground": "#3A342D99",
-		"editorCursor.foreground": "#ACA79E",
+		"editorCursor.foreground": "#B5AFA6",
 		"editorWhitespace.foreground": "#3A342D",
 		"editorIndentGuide.background1": "#292521",
 		"editorIndentGuide.activeBackground1": "#3A342D",
 		"sideBar.background": "#201D1A",
-		"sideBar.foreground": "#ACA79E",
-		"sideBarTitle.foreground": "#ACA79E",
+		"sideBar.foreground": "#B5AFA6",
+		"sideBarTitle.foreground": "#B5AFA6",
 		"sash.hoverBorder": "#C7864A",
 		"button.background": "#C7864A",
 		"button.foreground": "#1C1A18",
@@ -26,25 +26,25 @@
 		"input.border": "#292521",
 		"inputOption.activeBorder": "#C7864A",
 		"activityBar.background": "#201D1A",
-		"activityBar.foreground": "#ACA79E",
-		"activityBar.inactiveForeground": "#ACA79E",
-		"activityBar.activeBorder": "#ACA79E",
-		"activityBar.activeFocusBorder": "#ACA79E",
+		"activityBar.foreground": "#B5AFA6",
+		"activityBar.inactiveForeground": "#B5AFA6",
+		"activityBar.activeBorder": "#B5AFA6",
+		"activityBar.activeFocusBorder": "#B5AFA6",
 		"activityBarBadge.background": "#C7864A",
 		"activityBarBadge.foreground": "#1C1A18",
 		"titleBar.activeBackground": "#201D1A",
-		"titleBar.activeForeground": "#ACA79E",
+		"titleBar.activeForeground": "#B5AFA6",
 		"titleBar.inactiveBackground": "#181614",
 		"titleBar.inactiveForeground": "#8F98A1",
 		"statusBar.background": "#201D1A",
-		"statusBar.foreground": "#ACA79E",
+		"statusBar.foreground": "#B5AFA6",
 		"statusBar.debuggingBackground": "#C7864A",
 		"statusBar.debuggingForeground": "#1C1A18",
 		"statusBar.noFolderBackground": "#8A749C",
-		"statusBar.noFolderForeground": "#ACA79E",
+		"statusBar.noFolderForeground": "#B5AFA6",
 		"editorGroupHeader.tabsBackground": "#201D1A",
 		"tab.activeBackground": "#1C1A18",
-		"tab.activeForeground": "#ACA79E",
+		"tab.activeForeground": "#B5AFA6",
 		"tab.inactiveBackground": "#201D1A",
 		"tab.inactiveForeground": "#8F98A1",
 		"panel.background": "#201D1A",
@@ -131,7 +131,7 @@
 				"identifier"
 			],
 			"settings": {
-				"foreground": "#ACA79E"
+				"foreground": "#B5AFA6"
 			}
 		},
 		{
@@ -230,7 +230,7 @@
 				"punctuation.separator.namespace.access"
 			],
 			"settings": {
-				"foreground": "#ACA79E"
+				"foreground": "#B5AFA6"
 			}
 		},
 		{
@@ -278,10 +278,10 @@
 	"semanticTokenColors": {
 		"comment": "#6F7D6B",
 		"keyword": "#B05F4A",
-		"operator": "#ACA79E",
-		"variable": "#ACA79E",
+		"operator": "#B5AFA6",
+		"variable": "#B5AFA6",
 		"variable.global": "#B49A78",
-		"variable.defaultLibrary": "#ACA79E",
+		"variable.defaultLibrary": "#B5AFA6",
 		"variable.readonly": "#6D93B0",
 		"parameter": "#B49A78",
 		"property": "#B49A78",
