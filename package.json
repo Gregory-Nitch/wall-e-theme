@@ -1,0 +1,21 @@
+{
+  "name": "wall-e-theme",
+  "displayName": "WALL-E Theme",
+  "description": "A dirty theme for a hardworking robot.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "WALL-E Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/WALL-E Theme-color-theme.json"
+      }
+    ]
+  }
+}
