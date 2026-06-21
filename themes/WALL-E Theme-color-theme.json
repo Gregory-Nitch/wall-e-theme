@@ -5,6 +5,8 @@
 		"editor.background": "#1C1A18",
 		"editor.foreground": "#D4CEC2",
 		"editor.lineHighlightBackground": "#292521",
+		"editorLineNumber.foreground": "#7F6B6B",
+		"editorLineNumber.activeForeground": "#B05F4A",
 		"editor.selectionBackground": "#3A342D",
 		"editor.inactiveSelectionBackground": "#3A342D99",
 		"editorCursor.foreground": "#D4CEC2",
@@ -14,17 +16,23 @@
 		"sideBar.background": "#201D1A",
 		"sideBar.foreground": "#D4CEC2",
 		"sideBarTitle.foreground": "#D4CEC2",
-		"activityBar.background": "#181614",
+		"activityBar.background": "#201D1A",
 		"activityBar.foreground": "#D4CEC2",
-		"activityBar.inactiveForeground": "#8F98A1",
+		"activityBar.inactiveForeground": "#D4CEC2",
+		"activityBar.activeBorder": "#D4CEC2",
+		"activityBar.activeFocusBorder": "#D4CEC2",
 		"activityBarBadge.background": "#C7864A",
 		"activityBarBadge.foreground": "#1C1A18",
 		"titleBar.activeBackground": "#201D1A",
 		"titleBar.activeForeground": "#D4CEC2",
 		"titleBar.inactiveBackground": "#181614",
 		"titleBar.inactiveForeground": "#8F98A1",
-		"statusBar.background": "#181614",
+		"statusBar.background": "#201D1A",
 		"statusBar.foreground": "#D4CEC2",
+		"statusBar.debuggingBackground": "#C7864A",
+		"statusBar.debuggingForeground": "#1C1A18",
+		"statusBar.noFolderBackground": "#8A749C",
+		"statusBar.noFolderForeground": "#D4CEC2",
 		"editorGroupHeader.tabsBackground": "#201D1A",
 		"tab.activeBackground": "#1C1A18",
 		"tab.activeForeground": "#D4CEC2",
@@ -64,10 +72,18 @@
 			"scope": [
 				"keyword",
 				"keyword.control",
+				"keyword.control.flow",
+				"keyword.operator.cast.const_cast.cpp",
+				"keyword.operator.cast.dynamic_cast.cpp",
+				"keyword.operator.cast.reinterpret_cast.cpp",
+				"keyword.operator.cast.static_cast.cpp",
 				"keyword.operator.word",
 				"storage",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.modifier.specifier",
+				"storage.type.primitive",
+				"keyword.other.template"
 			],
 			"settings": {
 				"foreground": "#B05F4A"
@@ -88,6 +104,7 @@
 			"scope": [
 				"variable.parameter",
 				"variable.other.property",
+				"variable.other.member",
 				"variable.object.property",
 				"meta.object-literal.key"
 			],
@@ -99,7 +116,10 @@
 			"name": "Functions and methods",
 			"scope": [
 				"entity.name.function",
+				"entity.name.function.member",
+				"meta.function.definition entity.name.function",
 				"meta.function-call",
+				"meta.function-call entity.name.function",
 				"variable.function",
 				"support.function"
 			],
@@ -114,9 +134,12 @@
 				"entity.name.class",
 				"entity.name.struct",
 				"entity.name.enum",
+				"entity.name.union",
+				"support.type.primitive",
 				"support.type",
 				"support.class",
 				"storage.type",
+				"storage.type.template",
 				"meta.generic",
 				"entity.name.type.template"
 			],
@@ -128,6 +151,8 @@
 			"name": "Namespaces",
 			"scope": [
 				"entity.name.namespace",
+				"entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp",
 				"support.other.namespace",
 				"meta.namespace"
 			],
@@ -140,8 +165,11 @@
 			"scope": [
 				"constant.numeric",
 				"constant.language",
+				"constant.language.boolean",
+				"constant.language.nullptr",
 				"constant.character",
-				"constant.other"
+				"constant.other",
+				"support.constant"
 			],
 			"settings": {
 				"foreground": "#6D93B0"
@@ -161,7 +189,8 @@
 			"scope": [
 				"keyword.operator",
 				"punctuation",
-				"delimiter"
+				"delimiter",
+				"punctuation.separator.namespace.access"
 			],
 			"settings": {
 				"foreground": "#D4CEC2"
@@ -173,9 +202,11 @@
 				"entity.name.function.preprocessor",
 				"meta.preprocessor",
 				"keyword.control.directive",
+				"keyword.control.directive.defined",
 				"punctuation.definition.directive",
 				"entity.other.attribute-name",
 				"storage.modifier.attribute",
+				"meta.attribute",
 				"support.annotation"
 			],
 			"settings": {
@@ -212,12 +243,14 @@
 		"keyword": "#B05F4A",
 		"operator": "#D4CEC2",
 		"variable": "#D4CEC2",
+		"variable.defaultLibrary": "#D4CEC2",
 		"variable.readonly": "#6D93B0",
 		"parameter": "#B49A78",
 		"property": "#B49A78",
 		"property.readonly": "#6D93B0",
 		"function": "#C7864A",
 		"method": "#C7864A",
+		"macro": "#8A749C",
 		"number": "#6D93B0",
 		"enumMember": "#6D93B0",
 		"string": "#B9A055",
@@ -228,7 +261,6 @@
 		"enum": "#8F98A1",
 		"typeParameter": "#8F98A1",
 		"namespace": "#7F6B6B",
-		"macro": "#8A749C",
 		"decorator": "#8A749C"
 	}
 }
