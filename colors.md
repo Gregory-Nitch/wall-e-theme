@@ -22,6 +22,7 @@ Selection
 # Orange
 - Functions
 - Methods
+- Layer 1 parenthiseis & brackets () {} []
 #C7864A
 
 # Blue
@@ -35,6 +36,8 @@ Selection
 
 # Sandy Tan
 - Parameters
+- CSS attribute names
+- HTML attribute names
 - Member variables
 #B49A78
 
@@ -78,6 +81,8 @@ or
   - auto
   - mutable
   - friend
+- HTML tags
+- Layer 2 parenthiseis & brackets () {} []
 #B05F4A
 
 # Purple
@@ -85,6 +90,7 @@ or
 - Preprocessor
 - C++ attributes and annotations
 - vendor attributes
+- Layer 3 parenthiseis & brackets () {} []
 #8A749C
 
 # Faded Rust
