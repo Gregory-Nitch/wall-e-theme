@@ -1,7 +1,7 @@
 {
   "name": "wall-e-theme",
   "displayName": "WALL-E Theme",
-  "description": "A dirty theme for a hardworking robot.",
+  "description": "A dusty theme for hardworking people.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.125.0"

@@ -107,11 +107,6 @@
 				"keyword.operator.cast.reinterpret_cast.cpp",
 				"keyword.operator.cast.static_cast.cpp",
 				"keyword.other.namespace.definition.cpp",
-				"markup.heading",
-				"markup.heading.markdown",
-				"entity.name.section.markdown",
-				"markup.heading.markdown punctuation.definition.heading.markdown",
-				"punctuation.definition.heading.markdown",
 				"keyword.operator.word",
 				"storage",
 				"storage.type",
@@ -127,6 +122,20 @@
 			],
 			"settings": {
 				"foreground": "#B05F4A"
+			}
+		},
+		{
+			"name": "Markdown Headings",
+			"scope": [
+				"markup.heading",
+				"markup.heading.markdown",
+				"entity.name.section.markdown",
+				"markup.heading.markdown punctuation.definition.heading.markdown",
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#B05F4A",
+				"fontStyle": "bold"
 			}
 		},
 		{
