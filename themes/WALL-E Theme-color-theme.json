@@ -271,6 +271,15 @@
 			}
 		},
 		{
+			"name": "Python function definition",
+			"scope": [
+				"storage.type.function.python"
+			],
+			"settings": {
+				"foreground": "#B05F4A"
+			}
+		},
+		{
 			"name": "HTML tags",
 			"scope": [
 				"entity.name.tag",
