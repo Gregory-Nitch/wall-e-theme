@@ -139,6 +139,17 @@
 			}
 		},
 		{
+			"name": "Markdown Inline Code",
+			"scope": [
+				"markup.inline.raw.markdown",
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#B9A055"
+			}
+		},
+		{
 			"name": "Variables and plain identifiers",
 			"scope": [
 				"variable",
