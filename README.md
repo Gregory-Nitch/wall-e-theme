@@ -1,16 +1,14 @@
-# wall-e-theme README
+# Dirty Robit Theme
+A dusty VS Code theme for hardworking people. It may look a little dirty, but it is easy on the eyes.
+![Dirty Robit Theme Example](<Theme Example.png>)
 
-## Working with Markdown
+## Inspiration
+The earthy palette was inspired by WALL-E. This independent project is not affiliated with or endorsed by Disney, and it contains no WALL-E artwork or other Disney assets. Don't forget to be a human and live.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Possible Future Additions
+- Other languages. I only targeted C++.
+- A cleaner theme with gray backgrounds.
+- A light theme.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Contributions
+Contributions and feedback are welcome, including reports of gaps or fixes in the theme.

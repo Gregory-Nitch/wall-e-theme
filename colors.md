@@ -146,7 +146,7 @@ select:
 ```
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "WALL-E Dust",
+  "name": "Dirty Robit Dust",
 
   "colors": {
     "editor.background": "#1C1A18",

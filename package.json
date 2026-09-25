@@ -1,8 +1,15 @@
 {
-  "name": "wall-e-theme",
-  "displayName": "WALL-E Theme",
+  "name": "dirty-robit-theme",
+  "displayName": "Dirty Robit Theme",
   "description": "A dusty theme for hardworking people.",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "Gregory Nitch",
+  "license": "MIT",
+  "icon": "Dirty Robit.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gregory-Nitch/wall-e-theme.git"
+  },
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -12,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "WALL-E Theme",
+        "label": "Dirty Robit Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/WALL-E Theme-color-theme.json"
+        "path": "./themes/Dirty Robit Theme-color-theme.json"
       }
     ]
   }
