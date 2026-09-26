@@ -6,6 +6,10 @@
   "publisher": "GregoryNitch",
   "license": "MIT",
   "icon": "Dirty Robit.png",
+  "galleryBanner": {
+    "color": "#C7864A",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Gregory-Nitch/wall-e-theme.git"
@@ -15,6 +19,18 @@
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "dark",
+    "rust",
+    "dusty",
+    "earthy",
+    "warm",
+    "terminal",
+    "cpp"
   ],
   "contributes": {
     "themes": [
